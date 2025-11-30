@@ -1,6 +1,14 @@
 version: 2
 updates:
-  - package-ecosystem: "" 
+  - package-ecosystem: "gomod" 
     directory: "/" 
     schedule:
       interval: "weekly"
+    reviewers: 
+      - "mohamed-morsy33"
+  - package-ecosystem: "cargo" 
+    directory: "/" 
+    schedule:
+      interval: "weekly"
+    reviewers:
+      - "mohamed-morsy33"
